@@ -12,7 +12,7 @@
   font-size: 10px;
   color: #999;
   font-weight: 500;
-  font-family: Quicksand, Arial, sans-serif;
+  font-family: 'Quicksand', Arial, sans-serif;
   letter-spacing: 5px;
 }
 
@@ -20,14 +20,14 @@
   font-size: 18px;
   font-weight: 700;
   color: #000;
-  font-family: Playfair Display, Georgia, serif;
+  font-family: 'Playfair Display', Georgia, serif;
   letter-spacing: 5px;
   line-height: 1.8;
 }
 
 .p1DescriptionAbout,
 .p2DescriptionAbout {
-  font-family: Quicksand, Arial, sans-serif;
+  font-family: 'Quicksand', Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -35,7 +35,7 @@
 }
 
 .spanDescriptionAbout {
-  font-family: Quicksand, Arial, sans-serif;
+  font-family: 'Quicksand', Arial, sans-serif;
   font-weight: 700;
   font-size: 15px;
   color: #000000b3;
@@ -67,7 +67,7 @@
 }
 
 .pdivWorkingAbout {
-  font-family: Quicksand, Arial, sans-serif;
+  font-family: 'Quicksand', Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
 }

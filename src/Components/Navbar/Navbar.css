@@ -1,0 +1,153 @@
+.openNavbarBtn {
+  position: fixed;
+  top: 5px;
+  left: 10px;
+  z-index: 99999999;
+  background-color: white;
+  padding: 0.3rem 0.5rem;
+  outline: 0;
+  border: 0.2px solid #0000002c;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+
+.divNavbarSmall {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 10000000000;
+  background-color: #f5f5f5;
+}
+
+.divNavbarBig {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 17%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem 0rem;
+}
+
+.divNavbarSmallWidth {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 5rem 0rem;
+}
+
+.closeNavbarBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 99;
+  background-color: transparent;
+  padding: 0.3rem 0.7rem;
+  outline: 0;
+  border: 0.2px solid #0000002c;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+
+.closeNavbarBtn:hover {
+  border: 0.2rem solid #00000091;
+}
+
+.openNavbarBtn:hover {
+  border: 0.2rem solid #00000091;
+}
+
+.divPersonalImg {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-image: url("../../assets/about-BgAkqdr2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.h1divNavbarBig {
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: Playfair Display, Georgia, serif;
+  color: #000;
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+
+.h2divNavbarBig {
+  font-size: 0.75rem;
+  font-family: Quicksand, Arial, sans-serif;
+  font-weight: 400;
+  color: #000000b3;
+  line-height: 1.8;
+  text-transform: uppercase;
+}
+
+.spandivNavbarBig {
+  color: #2c98f0;
+}
+
+.divNavbarLinkss {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.linkDivNavbarLinks {
+  text-decoration: none;
+  color: #000000b3;
+}
+
+.linkDivNavbarLinks:hover {
+  color: #2c98f0;
+}
+
+@media screen and (max-width: 992.5px) {
+  .divNavbarBig {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992.5px) {
+  .divNavbarSmall {
+    display: none;
+  }
+
+  .openNavbarBtn {
+    display: none;
+  }
+  .divNavbarBig {
+    width: 21%;
+  }
+}
+
+@media screen and (min-width: 993.5px) and (max-width: 1200px) {
+  .divNavbarBig {
+    width: 25%;
+  }
+}

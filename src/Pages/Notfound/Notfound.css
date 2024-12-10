@@ -1,25 +1,58 @@
-.divError {
+.bigdivnotfound {
+  background-image: url("../../assets/Error404.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 12rem 0rem;
+}
+
+.bigestdivnotfound {
+  padding: 5rem 0rem;
+}
+
+.buttonnotfound {
+  padding: 1rem 5rem;
+  border-radius: 1rem;
+  background-color: orange;
+  outline: 0;
+  border: 0;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.buttonnotfound:hover {
+  border: 1px solid orange;
+  background: none;
+  color: black;
+}
+
+.divbuttonnotfound {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
   justify-content: center;
   align-items: center;
-  margin: auto;
-  /* padding: 5rem 0rem; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-@media screen and (max-width: 992px) {
-  .imgError {
-    width: 100%;
-  }
-  .divError {
-    padding: 7rem 0rem;
+.h1titlenotfound {
+  text-align: center;
+}
+
+@media screen and (max-width: 1440.5px) {
+  .bigestdivnotfound {
+    padding: 2rem 0rem;
   }
 }
 
-@media screen and (min-width: 992.5px) {
-  .imgError {
-    width: 50%;
+@media screen and (min-width: 1900.5px) {
+  .bigestdivnotfound {
+    padding: 20rem 0rem;
+  }
+}
+
+@media screen and (max-width: 768.5px) {
+  .bigestdivnotfound {
+    padding: 1rem 0rem;
   }
 }

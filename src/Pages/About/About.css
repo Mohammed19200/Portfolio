@@ -1,0 +1,109 @@
+.divDescriptionAbout {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.h11DescriptionAbout {
+  font-size: 10px;
+  color: #999;
+  font-weight: 500;
+  font-family: 'Quicksand', Arial, sans-serif;
+  letter-spacing: 5px;
+}
+
+.h12DescriptionAbout {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  font-family: 'Playfair Display', Georgia, serif;
+  letter-spacing: 5px;
+  line-height: 1.8;
+}
+
+.p1DescriptionAbout,
+.p2DescriptionAbout {
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #000000b3;
+}
+
+.spanDescriptionAbout {
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #000000b3;
+}
+
+.bigdivWorkingAbout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: auto;
+}
+
+.divWorkingAbout {
+  box-shadow: 0 0 56px -8px #0000002b;
+  position: relative;
+  z-index: 10001;
+  padding: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pdivWorkingAbout {
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.divBorderWorkingAbout1 {
+  border-bottom: 2px solid #2c98f0;
+}
+
+.divBorderWorkingAbout2 {
+  border-bottom: 2px solid #ec5453;
+}
+
+.divBorderWorkingAbout3 {
+  border-bottom: 2px solid #f9bf3f;
+}
+
+.divBorderWorkingAbout4 {
+  border-bottom: 2px solid #a84cb8;
+}
+
+.iconDivBorderWorkingAbout1 {
+  color: #2c98f0;
+  font-size: 30px;
+}
+
+.iconDivBorderWorkingAbout2 {
+  color: #ec5453;
+  font-size: 30px;
+}
+
+.iconDivBorderWorkingAbout3 {
+  color: #f9bf3f;
+  font-size: 30px;
+}
+
+.iconDivBorderWorkingAbout4 {
+  color: #a84cb8;
+  font-size: 30px;
+}
